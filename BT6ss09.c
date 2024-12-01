@@ -88,8 +88,8 @@ int main() {
             }
             case 7: {
                 int sum = 0;
-                int maxR = -1;
-                int maxSum = -1;
+                int maxR = 0;
+                int maxSum = 0;
                 for(i=0; i<rows; i++) {
                     sum = 0;
                     for(j=0; j<cols; j++) {
